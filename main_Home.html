@@ -3,25 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <style>
+  
+        footer{
+            height: 10%;
+            width: 100%;
+            background-color: orange;
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--navbar-->
-    <div> 
-        <div>
-            <header>
-                <div>aqui ira el logo</div>
-                <div>y aqui el resto de las opciones</div>
-            </header>
-        </div>
-    </div>
-    <!--centro-->
+
+    <!--
+    <header>
+        <div>aqui ira el logo</div>
+        <div>y aqui el resto de las opciones</div>
+    </header>
+    -->
+
+    <header>
+        <a href="" class="logo">Logo</a>
+        <ul>
+            <li><a href="main_Home.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tabaco.html">Tobacco</a></li>
+            <li><a href="accesorios.html">Accesories</a></li>
+            <li><a href="giftshop.html">Giftshop</a></li>
+            <li><a href="contacto.html">Contact Info</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+
+            
+    <!--comentario temporal para hacer funcionar el navbar
+    centro
     <div>
         <div><article class="article1"><h3>aqui podemos poner distintas tipos taggs</h3> </article></div>
         <div><article class="article2"><h3>y aqui se vean los productos </h3></article></div>
     </div>
-    <!--end-->
+    end
     <div>
         <div>
             <footer>
@@ -30,5 +59,6 @@
             </footer>
         </div>
     </div>
+    -->
 </body>
 </html>
