@@ -87,6 +87,7 @@ header.sticky ul li a
     color: #000;
 }
 
+<<<<<<< Updated upstream
 /* footer */
 footer
 {
@@ -183,3 +184,20 @@ footer
 }
 
 
+=======
+/* las asignaciones para las cards */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 250px;
+    width: 300px;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    background-color: white;
+    
+  }
+>>>>>>> Stashed changes
