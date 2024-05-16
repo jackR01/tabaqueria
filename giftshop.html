@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="" class="logo">Logo</a>
+        <ul>
+            <li><a href="main_Home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tabaco.html">Tobacco</a></li>
+            <li><a href="accesorios.html">Accesories</a></li>
+            <li><a href="giftshop.html" class="active">Giftshop</a></li>
+            <li><a href="contacto.html">Contact Info</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+    
+</body>
+</html>
