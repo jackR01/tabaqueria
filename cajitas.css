@@ -1,0 +1,70 @@
+.cajita1 
+{
+    color: rgb(255, 165, 0);
+    background-color: rgba(73, 53, 33, 0.9);
+    padding: 16px;
+    box-shadow: currentcolor 0px 0px 0px 1px;
+    border-radius: 12px;
+    margin: 10% 5% 5%;
+    display: inline-block;
+    width: 35vw;
+}
+
+.cajita2 
+{
+    color: rgb(73, 53, 33);
+    background-color: rgba(255, 165, 0, 0.7); 
+    padding: 16px;
+    box-shadow: currentcolor 0px 0px 0px 1px;
+    border-radius: 12px;
+    margin: 10% 7% 5%;
+    display: inline-block;
+    width: 35vw;
+}
+
+.titulo 
+{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.separador 
+{
+    background-color: currentcolor;
+    padding: 0px;
+    height: 4px;
+    border: 0px;
+    display: block;
+    color: inherit;
+}
+
+.decoracion 
+{
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px,
+            currentcolor 8px, currentcolor 10px);
+    padding: 0px;
+    aspect-ratio: 12 / 1;
+    border: 0px;
+    display: block;
+    color: inherit;
+}
+
+.fotosProducto
+{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 16px;
+    border-radius: 0px;
+    padding: 16px;
+    margin-left: 7%;
+}
+
+.descripcion
+{
+    border-left: 4px solid currentcolor;
+    margin-left: 0px;
+    padding-left: 32px;
+    width: 100%;
+    font-family:'Poppins', sans-serif;
+}
