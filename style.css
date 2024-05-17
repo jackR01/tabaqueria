@@ -1,7 +1,8 @@
 body
 {
     background-color: #000;
-    min-height: 200vh;
+    background: url(img/tobacco3bg.jpg);
+    background-size: cover;
 }
 *
 {
@@ -72,7 +73,7 @@ poner una foto de fondo, asi que asumo que es necesario
 para que el navbar funcione, pero tal vez podemos quitar este
 <section> y poner la foto de fondo en el estilo del body.
 De cualquier forma, funciona y se ve bien *por ahora*
-*/
+
 .banner
 {
     position: relative;
@@ -81,27 +82,33 @@ De cualquier forma, funciona y se ve bien *por ahora*
     background: url(img/tobacco3bg.jpg);
     background-size: cover;
 }
+*/
 header.sticky .logo,
 header.sticky ul li a
 {
     color: #000;
 }
 
-<<<<<<< Updated upstream
 /* footer */
 footer
 {
     background-color: #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    color: white;
 }
 .footerContainer
 {
     width: 100%;
-    padding: 70px 30px 20px;
+
 }
 .icons
 {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 .icons a
 {
@@ -184,7 +191,6 @@ footer
 }
 
 
-=======
 /* las asignaciones para las cards */
 .card {
     /* Add shadows to create the "card" effect */
@@ -200,4 +206,14 @@ footer
     background-color: white;
     
   }
->>>>>>> Stashed changes
+
+/* encendedor que te sigue y te devuelve al inicio de la pag */
+.lighter
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100; 
+    height: 100px;
+    width: 100px;
+}
