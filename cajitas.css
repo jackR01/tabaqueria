@@ -83,25 +83,21 @@
     width: 90vw;
 }
 .article .grande{
-    width: 90%;
-    background-color: rgba(255, 165, 0, 0.7); 
+    width: 180vw; 
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 2em;
 
     transition: all .5s ease;
-    transform: translate(50%);
+    transform: translate(-50%);
 }
 .article .img{
-    width: calc(100/2);
+    width: calc(100%/2);
     min-height: 10vh;
-    
-    
 }
 .article .puntos{
     width: 100%;
-    background-color: red;
     padding: 20px;
     margin: 1em 0 0;
 
@@ -111,8 +107,8 @@
     align-items: center;
 }
 .article .punto{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     margin: 5px;
 }
 
