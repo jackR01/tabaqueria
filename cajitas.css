@@ -1,3 +1,4 @@
+
 .cajita1 
 {
     color: rgb(255, 165, 0);
@@ -19,7 +20,7 @@
     border-radius: 12px;
     margin: 10% 7% 5%;
     display: inline-block;
-    width: 35vw;
+    width: 60vw;
 }
 
 .titulo 
@@ -67,4 +68,54 @@
     padding-left: 32px;
     width: 100%;
     font-family:'Poppins', sans-serif;
+}
+
+/* carrusel del home */
+.article 
+{
+    color: rgb(255, 165, 0);
+    background-color: rgba(73, 53, 33, 0.9);
+    padding: 16px;
+    box-shadow: currentcolor 0px 0px 0px 1px;
+    border-radius: 12px;
+    margin: 10% 5% 5%;
+    display: inline-block;
+    width: 90vw;
+}
+.article .grande{
+    width: 90%;
+    background-color: rgba(255, 165, 0, 0.7); 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+
+    transition: all .5s ease;
+    transform: translate(50%);
+}
+.article .img{
+    width: calc(100/2);
+    min-height: 10vh;
+    
+    
+}
+.article .puntos{
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+    margin: 1em 0 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.article .punto{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+.article .punto .activo{
+    background-color: yellow;
 }

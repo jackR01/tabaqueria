@@ -76,16 +76,9 @@ poner una foto de fondo, asi que asumo que es necesario
 para que el navbar funcione, pero tal vez podemos quitar este
 <section> y poner la foto de fondo en el estilo del body.
 De cualquier forma, funciona y se ve bien *por ahora*
-
-.banner
-{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url(img/tobacco3bg.jpg);
-    background-size: cover;
-}
 */
+
+
 header.sticky .logo,
 header.sticky ul li a
 {
