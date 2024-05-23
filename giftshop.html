@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giftshop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cajitas.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,6 +28,44 @@
 <body>
 
     <section class="banner"></section>
+
+    <div class="cajita1">
+        <div class="acordeon">
+            <div class="bloque activo">
+                <h2 class="h2">LOGIN</h2>
+                <div class="contenido"> 
+                    <div class="input-box">
+                        <input type="text" placeholder="Nombre de Usuario" 
+                        required>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder=" contrasena" 
+                        required>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">guardar Usuario</label>
+                    </div>
+                </div>
+            </div>
+            <div class="bloque">
+                <h2 class="h2">REGISTRO</h2>
+                <div class="contenido">
+                    <div class="input-box">
+                        <input type="text" placeholder="ingrese nombre de Usuario" 
+                        required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="ingrese su correo" 
+                        required>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder=" contrasena" 
+                        required>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- boton volver al principio(top) de la pagina -->
     <img src="img/encendedor_char.png" class="lighter" onclick="toTop()">
