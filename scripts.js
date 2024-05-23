@@ -38,3 +38,17 @@ h2.forEach(( cadaH2 ,i ) => {
         bloque[i].classList.add('activo')
     })
 })
+
+//confirmacion de login
+const btn= document.querySelector('.btn')
+const respuesta = document.querySelector('.respuesta')
+
+const cerrar = document.querySelector('.cerrar')  
+ 
+btn.onclick = () =>{
+    respuesta.classList.add('active')
+}
+
+cerrar.onclick = () =>{
+    confirmacion.classList.remove('active')
+}
