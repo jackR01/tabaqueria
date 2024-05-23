@@ -20,7 +20,7 @@
     border-radius: 12px;
     margin: 10% 7% 5%;
     display: inline-block;
-    width: 60vw;
+    width: 35vw;
 }
 
 .titulo 
@@ -115,3 +115,115 @@
 .article .punto .activo{
     background-color: yellow;
 }
+
+/*acordeon*/
+.acordeon{
+    width: 90%;
+    max-width: 170em;
+    padding: 0em;
+}
+.acordeon .bloque{
+    margin: 0 0 1em;
+    padding: 0em;
+}
+.acordeon.h2{
+    margin: 0 0 1em;
+    padding: 1em;
+    color: black;
+    text-align: center;
+}
+.acordeon .contenido{
+    height: 0;
+    padding: 0em;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.acordeon .bloque.activo .contenido{
+    height: 21em;
+}
+/*login y registro del acordeon*/
+
+.contenido .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 165, 0);
+    border: none;
+    outline: none;
+    border: 2px solid rgba 255,255,255,.2;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input {
+    color: black;
+}
+.contenido .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 18px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.contenido .btn{
+    align-self: center;
+    width: 25%;
+    height: 45px;
+    background: rgb(255, 165, 0);
+    border: none;
+    outline: 4px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 1);
+    cursor: pointer; 
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+/*pop upde confirmacion*/
+.respuesta{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: rgb(73, 53, 33);
+    background-color: rgba(255, 165, 0, 0.7); 
+    opacity: 0;
+    pointer-events: none;
+}
+
+.respuesta .active{
+    opacity: 1;
+    pointer-events: auto;
+    transition: .4s ease;
+}
+
+.respuesta .confirmacion{
+    width: 300px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rbga(0,0,0,.1);
+    padding: 30px;
+    transform: scale(0);
+}
+
+.respuesta .active .confirmacion{
+    opacity: 1;
+    pointer-events: auto;
+    transition: .4s ease;
+    transition-delay: .25s;
+}
+
+.confirmacion h1{
+    line-height: 1;
+}
+.confirmacion p{
+   color: rgba(255, 165, 0, 0.7);
+}
+  

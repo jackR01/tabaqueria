@@ -25,6 +25,7 @@ const punto = document.querySelectorAll('.punto')
         })
     })
 
+HEAD
 //script y funciones para carrito de compras
 
 //mantener visible el carrito
@@ -222,3 +223,32 @@ function actualizarTotalCarrito(){
     document.getElementsByClassName('carrito-precio-total')[0].innerText = '$'+total.toLocaleString("es") + ",00";
 
 }
+
+//acordeon 
+const bloque = document.querySelectorAll('.bloque')
+const h2 = document.querySelectorAll('.h2')
+
+h2.forEach(( cadaH2 ,i ) => {
+    h2[i].addEventListener('click', () => {
+
+        bloque.forEach( ( cadaBloque , i) =>{
+            bloque[i].classList.remove('activo')
+        })
+        bloque[i].classList.add('activo')
+    })
+})
+
+//confirmacion de login
+const btn= document.querySelector('.btn')
+const respuesta = document.querySelector('.respuesta')
+
+const cerrar = document.querySelector('.cerrar')  
+ 
+btn.onclick = () =>{
+    respuesta.classList.add('active')
+}
+
+cerrar.onclick = () =>{
+    confirmacion.classList.remove('active')
+}
+
