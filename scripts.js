@@ -25,7 +25,7 @@ const punto = document.querySelectorAll('.punto')
         })
     })
 
-HEAD
+
 //script y funciones para carrito de compras
 
 //mantener visible el carrito
