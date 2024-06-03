@@ -11,6 +11,12 @@
     width: 35vw;
 }
 
+#aboutnav
+{
+    color: rgb(255, 165, 0);
+    background-color: rgba(73, 53, 33, 0.9);
+}
+
 .cajita2 
 {
     color: rgb(73, 53, 33);
